@@ -15,7 +15,7 @@ app.use(bodyParser.json({
 }));
 
 app.get('/',(req,res,next)=> {
-    res.send('Hello, World!');
+    res.send('Nodejs app');
 });
 
 app.listen(app.get('port'),function(err) {
