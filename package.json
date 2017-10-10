@@ -1,0 +1,37 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyVE/nodeAPP.git"
+  },
+  "author": "ALexeyVE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexeyVE/nodeAPP/issues"
+  },
+  "homepage": "https://github.com/AlexeyVE/nodeAPP#readme",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "busboy": "^0.2.14",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "image-type": "^3.0.0",
+    "mongoose": "^4.12.1",
+    "mongoose-unique-validator": "^1.0.6",
+    "nodemon": "^1.12.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
